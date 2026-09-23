@@ -1,0 +1,29 @@
+# Sentiment-Driven Market Direction Prediction  - Python dependencies
+# Verified with Python 3.14 (pandas 3.0, numpy 2.5, scikit-learn 1.9, matplotlib 3.11)
+
+# --- Data collection (Sprint 1.1) ---
+yfinance>=0.2.54
+curl_cffi>=0.7          # browser-impersonating session to avoid Yahoo rate limits
+vaderSentiment>=3.3.2
+feedparser>=6.0         # RSS headlines for longer news history (Sprint 2.2)
+
+# --- Analysis, modelling, charts (Sprint 1.2 and Sprint 2.1) ---
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# --- Presentation deck ---
+python-pptx>=1.0
+
+# --- Sprint 2.2 model comparison ---
+lightgbm>=4.6
+imbalanced-learn>=0.12
+
+# --- Sprint 3.1 dashboard ---
+plotly>=5.24
+dash>=2.18
+dash-bootstrap-components>=1.6
+
+# torch>=2.6            # GRU deep-learning model (Sprint 4)
+# seaborn>=0.13
